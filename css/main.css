@@ -1,2 +1,65 @@
 @import "/css/reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    background-color: #F1F1F1;
+    padding-top: 46px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    position: relative;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    padding: 0 12px 3px 0;
+    line-height: 1;
+}
+
+.logo::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #FDA300;
+    border-radius: 50%;
+}
+
+/* Navigation */
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.nav-link {
+ color: #000;
+}
+
+.nav-link.active {
+    color: #606060;
+}
