@@ -158,3 +158,49 @@ text-transform: uppercase;
 }
 
 /* Social */
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+.contacts-title {
+    margin-bottom: 40px;
+}
+.contacts-contant {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.contacts-button {
+    margin-bottom: 80px;
+}
+.btn {
+    background-color: #070707;
+    color: #ffffff;
+    padding: 7px 22px;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #411c1c;
+    color: rgb(180, 253, 253);
+}
+
+.btn:active {
+    background-color: #000000;
+    color: rgb(252, 252, 252);
+    position: relative;
+    top: 1px;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+.contacts-footer {
+    color: #828282;
+}
