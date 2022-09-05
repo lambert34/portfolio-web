@@ -20,3 +20,4 @@ AOS.init({
 
 // https://michalsnik.github.io/aos/
 // библиотека анимации
+// https://cdnjs.com/libraries/aos
