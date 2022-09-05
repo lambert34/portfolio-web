@@ -9,3 +9,14 @@ navBtn.onclick = () => {
         navBtnImg.src = "./img/mobile/nav.svg";
     }
 }
+
+AOS.init({
+    once: true
+});
+
+// once-true - анимация происходит один раз, при первом скролле
+
+
+
+// https://michalsnik.github.io/aos/
+// библиотека анимации
